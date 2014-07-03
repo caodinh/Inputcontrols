@@ -11,7 +11,7 @@ public class MainActivity extends Activity {
 	
 	Button btn_Checkbox;
 	Button btn_Radio, btn_Toggle, btn_Spinner, btn_Picker;
-	
+//	Nen dung cach bat su kien thu 5
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
