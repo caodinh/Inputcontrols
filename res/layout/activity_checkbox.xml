@@ -1,0 +1,71 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="${packageName}.${activityClass}" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#008040"
+        android:text="Sở thích của bạn là gì?" />
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <CheckBox
+            android:id="@+id/cbBongda"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#FF80C0"
+            android:onClick="onCheckboxClicked"
+            android:text="Bóng đá" />
+
+        <CheckBox
+            android:id="@+id/cbBongchuyen"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#FF8080"
+            android:onClick="onCheckboxClicked"
+            android:text="Bóng chuyền" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <CheckBox
+            android:id="@+id/cbBongro"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#FFFF00"
+            android:onClick="onCheckboxClicked"
+            android:text="Bóng rổ" />
+
+        <CheckBox
+            android:id="@+id/cbBongban"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#FF8040"
+            android:onClick="onCheckboxClicked"
+            android:text="Bóng bàn" />
+    </TableRow>
+
+    <TextView
+        android:id="@+id/tvKetqua"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#8080FF"
+        android:text="Tổng hợp sở thích của bạn là:" />
+
+</LinearLayout>
