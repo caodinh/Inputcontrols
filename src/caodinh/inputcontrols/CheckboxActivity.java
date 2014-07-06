@@ -10,7 +10,7 @@ public class CheckboxActivity extends Activity {
 	
 	TextView tv_Ketqua;
 	CheckBox cb_Bongda, cb_Bongchuyen;
-
+// Hi Top khung long dey
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -23,36 +23,36 @@ public class CheckboxActivity extends Activity {
 	
 	public void onCheckboxClicked(View view){
 //		boolean checked = ((CheckBox) view).isChecked();
-		String sothich = "Tổng hợp sở thích của bạn là:";
+		String sothich = "Tá»•ng há»£p sá»Ÿ thĂ­ch cá»§a báº¡n lĂ :";
 		
 		if (cb_Bongda.isChecked()){
-			sothich += "\n Bóng đá";
+			sothich += "\n BĂ³ng Ä‘Ă¡";
 		}
 		
 		if (cb_Bongchuyen.isChecked()){
-			sothich += "\n Bóng chuyền";
+			sothich += "\n BĂ³ng chuyá»�n";
 		}
 //		switch (view.getId()){
 //		case R.id.cbBongda:
 //			if (checked){
-//				sothich += "Bóng đá\n";
+//				sothich += "BĂ³ng Ä‘Ă¡\n";
 //				
 //			}
 //			break;
 //		case R.id.cbBongchuyen:
 //			if (checked){
-//				sothich += "Bóng chuyền\n";
+//				sothich += "BĂ³ng chuyá»�n\n";
 //			}
 //			break;
 //		case R.id.cbBongro:
 //			if (checked){
-//				sothich += "Bóng rổ\n";
+//				sothich += "BĂ³ng rá»•\n";
 //				tv_Ketqua.setText(sothich);
 //			}
 //			break;
 //		case R.id.cbBongban:
 //			if (checked){
-//				sothich += "Bóng bàn\n";
+//				sothich += "BĂ³ng bĂ n\n";
 //				tv_Ketqua.setText(sothich);
 //			}
 //			break;
